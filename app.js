@@ -4,7 +4,7 @@ const port = 3000;
 
 // Configurazione asset statici
 // I file inseriti nella cartella 'public' saranno accessibili via HTTP
-// Esempio: se hai un file in public/images/ciambellone.jpeg, sarà accessibile a http://localhost:3000/images/ciambellone.jpeg
+// Esempio: se hai un file in public/images/ciambellone.jpeg, sarà accessibile a http://localhost:3000/images/ciambellone.jpg
 app.use(express.static('public'));
 
 // Lista dei post (Array di oggetti)
@@ -12,31 +12,31 @@ const posts = [
   {
     title: 'Ciambellone',
     content: 'Un dolce soffice e semplice, perfetto per la colazione o la merenda.',
-    image: '/images/ciambellone.jpeg',
+    image: '/images/ciambellone.jpg',
     tags: ['dolce', 'colazione', 'fatto in casa'],
   },
   {
     title: 'Cracker alla barbabietola',
     content: 'Uno snack croccante e colorato, ideale per un aperitivo originale.',
-    image: '/images/cracker_barbabietola.jpeg',
+    image: '/images/cracker_barbabietola.jpg',
     tags: ['snack', 'aperitivo', 'barbabietola'],
   },
   {
     title: 'Pane fritto dolce',
     content: 'Una ricetta golosa per recuperare il pane raffermo.',
-    image: '/images/pane_fritto_dolce.jpeg',
+    image: '/images/pane_fritto_dolce.jpg',
     tags: ['dolce', 'fritto', 'tradizione'],
   },
   {
     title: 'Pasta alla barbabietola',
     content: 'Un primo piatto scenografico e dal sapore delicato.',
-    image: '/images/pasta_barbabietola.jpeg',
+    image: '/images/pasta_barbabietola.jpg',
     tags: ['primo piatto', 'barbabietola', 'pasta'],
   },
   {
     title: 'Torta paesana',
     content: 'Un dolce povero della tradizione lombarda a base di pane e latte.',
-    image: '/images/torta_paesana.jpeg',
+    image: '/images/torta_paesana.jpg',
     tags: ['dolce', 'tradizione', 'Lombardia'],
   },
 ];
